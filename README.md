@@ -14,26 +14,26 @@ The login for bidders and auctioneers will be distinct.
 There will be extensive record storage for auction items.
 
 The functionalities implemented are:
-  Login/Sign-up for both types of accounts (auctioneers and bidders)
-    With respect to the auctioneer:
-      Adding items
-      Removing items
-      Finalizing/Closing bids
-      Acknowledging the buyer(s)
-      Selling items
-      Etcetera
-    With respect to bidders:
-      Viewing items
-      Bidding on items
-      Paying for item(s)
-      Etcetera
+  1. Login/Sign-up for both types of accounts (auctioneers and bidders)
+  2. With respect to the auctioneer:
+     1. Adding items
+     2. Removing items
+     3. Finalizing/Closing bids
+     4. Acknowledging the buyer(s)
+     5. Selling items
+     6. Etcetera
+  3. With respect to bidders:
+     1. Viewing items
+     2. Bidding on items
+     3. Paying for item(s)
+     4. Etcetera
 
 The database tables used are:
-  Credentials: The login credentials of all users
-  Auctioneer: Information about the auctioneers such as their ID, name, etcetera
-  Bidder: Information about the bidders such as their ID, name, etcetera
-  Current Items: Details of the items currently on auction
-  Sold Items: Details of the items which have been sold via auction
-  Item History: Record of the bids on all items
+  1. Credentials: The login credentials of all users
+  2. Auctioneer: Information about the auctioneers such as their ID, name, etcetera
+  3. Bidder: Information about the bidders such as their ID, name, etcetera
+  4. Current Items: Details of the items currently on auction
+  5. Sold Items: Details of the items which have been sold via auction
+  6. Item History: Record of the bids on all items
  
 The front-end for the application is created using Visual C#, and the back-end implemented using MySQL.
